@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url('image/bg.jpg');
+	background-size: 1920px 1200px ;
+	background-repeat: no-repeat;
+}
+.image_container {
+   width: 300px;
+   height: 300px;
+   background: #eee;
+   text-align: center;
+   line-height: 300px;
+ }
+
+.image_container img {
+   vertical-align: middle;
+ }
+
+.form-signin {
+    max-width: 500px;
+    padding: 19px 29px 29px;
+    margin: 0 auto;
+	//margin-top:90px;
+    background-image: url('image/bg_2.jpg');
+	background-size: cover ;
+    background-repeat: no-repeat;
+	
+    border: 1px solid #161E29;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+			
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#990000;
+	font-weight:lighter;
+}
+
+.form-signin .form-signin-heading{
+    color:#161e29;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}
+
+.signin-form, .body-container
+{
+	//border:solid red 1px;
+	margin-top:110px;
+}
+.navbar-brand{
+	font-family:"Lucida Handwriting";
+}
+#btn-submit{
+	height:45px;
+}
+.h5{
+	font-family:Verdana, Geneva, sans-serif;
+}
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
